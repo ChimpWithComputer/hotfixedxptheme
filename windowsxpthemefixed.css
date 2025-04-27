@@ -7,6 +7,7 @@
 
 @import "https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css";
 @import "https://discordstyles.github.io/Addons/bottomhsl.css";
+
 .bg__960e4 {
   background: var(--xp-background-color, #0066cc) var(--xp-background-image, url(https://saltssaumure.github.io/xp-discord-theme/img/bliss.avif)) center/cover;
 }
