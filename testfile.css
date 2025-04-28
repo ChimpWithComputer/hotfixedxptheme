@@ -4,10 +4,6 @@
  * @version 1.0
  * @description Makes Discord look like Windows XP.
  */
-
-@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
-@import url("https://discordstyles.github.io/Addons/bottomhsl.css");
-
 /* --- Horizontal Server List settings --- */
 :root {
   --HSL-server-icon-size: 48px;
