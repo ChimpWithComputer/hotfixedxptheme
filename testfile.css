@@ -5,12 +5,19 @@
  * @description Makes Discord look like Windows XP.
  */
 
-@import "https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css";
-@import "https://discordstyles.github.io/Addons/bottomhsl.css";
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+@import url("https://discordstyles.github.io/Addons/bottomhsl.css");
 
-/* --- Your full theme CSS starts here --- */
+/* --- Horizontal Server List settings --- */
+:root {
+  --HSL-server-icon-size: 48px;
+  --HSL-spacing: 10px;
+  --HSL-align-bottom: 1; /* 1 = bottom align, 0 = top align */
+  --HSL-server-spacing: 10px;
+  --HSL-background: var(--xp-taskbar-color-2, #578CD0);
+}
 
-/* Background and general styles */
+/* --- General Theme Background --- */
 .bg__960e4 {
   background: var(--xp-background-color, #0066cc) var(--xp-background-image, url(https://saltssaumure.github.io/xp-discord-theme/img/bliss.avif)) center/cover;
 }
